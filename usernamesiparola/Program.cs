@@ -22,8 +22,6 @@
                     if (inputpassword != password)
                     {
                         Console.WriteLine("Parola este gresita");
-                        Console.ReadKey();
-                        Console.Clear();
                         inputusername = null; inputpassword = null;
                     }
                     else
